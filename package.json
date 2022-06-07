@@ -1,7 +1,6 @@
 {
   "name": "calendar-stack",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -44,5 +43,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Calendar stack for React JS",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyjulpiter/calendar-stack.git"
+  },
+  "author": "rickyjulpiter <rickyjulpiter14@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickyjulpiter/calendar-stack/issues"
+  },
+  "homepage": "https://github.com/rickyjulpiter/calendar-stack#readme"
 }

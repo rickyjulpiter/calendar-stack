@@ -4,8 +4,7 @@ import { Card, CardContent, Container, Typography } from '@mui/material';
 import { createCalendarList } from '../../Utils';
 import { CalendarListContainer, DisplayFlexSpaceBetween } from './styled';
 
-const CalendarStack = ({ handleChangeCalendar }) => {
-  const calendarList = createCalendarList();
+const CalendarStack = ({ handleChangeCalendar, calendarList }) => {
   const currentDate = calendarList[0]?.date;
   const [calendarListIndex, setCalendarListIndex] = useState(0);
   const [selectedDate, setSelectedDate] = useState(currentDate);
@@ -95,7 +94,8 @@ const CalendarStack = ({ handleChangeCalendar }) => {
 };
 
 CalendarStack.defaultProps = {
-  handleChangeCalendar: () => console.log('date change!')
+  handleChangeCalendar: () => console.log('date change!'),
+  calendarList: createCalendarList()
 };
 
 export default CalendarStack;
