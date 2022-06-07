@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.glider {
+    width: 95%;
+    margin: 0;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow-x: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.glide {
+    min-width: 100px;
+    height: 105px;
+    transition: 0.5s;
+}
+
+.moveBehind {
+    font-size: 20px;
+}
+
+.moveAhead {
+    font-size: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+    font-size: 20px;
+    top: 11%;
+    color: #404040;
 }
