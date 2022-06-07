@@ -1,6 +1,6 @@
 {
   "name": "calendar-stack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -58,6 +58,6 @@
   },
   "homepage": "https://github.com/rickyjulpiter/calendar-stack#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
