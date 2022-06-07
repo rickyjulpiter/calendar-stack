@@ -2,7 +2,7 @@ import CalendarStack from './Container/CalendarStack';
 
 const App = () => {
   return (
-    <CalendarStack handleChangeCalendar={(date) => console.log('hey', date)} />
+    <CalendarStack handleChangeCalendar={(date) => console.log('date', date)} />
   );
 };
 
